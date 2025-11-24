@@ -7,44 +7,53 @@
     <title>LUNAERIS— Exploring Beyond</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="Recursos/favicon.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
 <body>
     <header class="header">
         <div class="container nav-container">
             <div class="logo">
-                <img src="recursos/logo-lunaeris.png" alt="Lunaeris Logo">
+                <img src="Recursos/logo-lunaeris.png" alt="Lunaeris Logo">
                 <h1>Lunaeris</h1>
             </div>
         </div>
         <nav class="nav">
             <ul class="nav-list">
 
-                <li><a href="#about">About</a></li>
-                <li><a href="#">Missions</a></li>
+                <li><a href="about.html" target="_blank">About</a></li>
                 <li><a href="#program">Program</a></li>
                 <li><a href="#members">Members</a></li>
                 <li><a href="#feedback">Feedback</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="visit.html">Join Us</a></li>
+                <li><a href="gallery.html" target="_blank">Gallery</a></li>
+                <li><a href="form.html" target="_blank">Sign Up</a></li>
             </ul>
         </nav>
     </header>
     <main class="container">
         <section class="hero">
-            <h2>Journey Beyond the Stars</h2>
-            <p>Discover, Learn, and Dream about space exploration with Lunaeris.</p>
+
         </section>
-        <!-- ABOUT SECTION -->
-        <section class="about">
-            <div>
-                <h2>About the Academy</h2>
-                <p>At Lunaeris, we inspire curiosity and innovation through space science.
-                    Our academy combines education, technology, and imagination to prepare future explorers,
-                    scientists, and engineers ready to take humanity beyond the stars.</p>
-                <img src="recursos/spacelab.jpeg" alt="Space Lab at Lunaeris">
-                <p>Space Lab at Lunaeris</p>
+
+        <section class="parallax"></section>
+
+        <section class="parallax">
+            <div class="parallax-text">
+                <h2>Journey Beyond the Stars</h2>
+                <p>Discover, Learn, and Dream about space exploration with Lunaeris.</p>
             </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+
+        <section id="about" class="about-lunaeris">
+            <h2>About Lunaeris</h2>
+            <p class="about-intro">Lunaeris was born from the idea of guiding learners through a path of clarity and
+                discovery
+                just as the moonlight <i>luna</i> illuminates the night. The name blends <strong><i>lunar</i></strong>
+                symbolism with the concept
+                of <strong><i>aeris</i></strong> (air, elevation), creating an identity that represents growth,
+                creativity, and learning that rises above the ordinary.</p>
         </section>
 
         <!-- PROGRAM SECTION -->
@@ -52,15 +61,15 @@
             <h2>Study Program</h2>
             <div class="program-grid">
                 <div class="program-item">
-                    <h3>🚀 Space Technology</h3> <!--remove the icons-->
+                    <h3>&#127756; Space Technology</h3>
                     <p>Learn about spacecraft design, robotics, and propulsion systems used in modern missions.</p>
                 </div>
                 <div class="program-item">
-                    <h3>🌌 Astronomy & Physics</h3>
+                    <h3>&#128640; Astronomy & Physics</h3>
                     <p>Understand celestial phenomena, stars, and galaxies through observation and research.</p>
                 </div>
                 <div class="program-item">
-                    <h3>🧠 AI in Space</h3>
+                    <h3> &#129504; AI in Space</h3>
                     <p>Discover how artificial intelligence supports exploration, automation, and data analysis.</p>
                 </div>
             </div>
@@ -121,9 +130,23 @@
             </div>
         </section>
 
+        <div class="glass-box">
+            <h2>Start Your Journey Beyond the Horizon</h2>
+            <p>
+                Are you ready to experience something unforgettable?
+                Lunaeris opens the door to a universe of exploration, inspiration, and cosmic discovery.
+                When you join our community, you're not just signing up — you're becoming part of a mission
+                that pushes the limits of imagination and science.
+                <br><br>
+                Let the stars guide your curiosity. Take the first step.
+            </p>
+            <a href="form.html">Begin the Adventure →</a>
+        </div>
+
         <!-- FEEDBACK SECTION -->
         <section id="feedback" class="feedback">
             <h2>Positive Feedback</h2>
+            <br><br>
             <div class="feedback-grid">
                 <blockquote>
                     “Lunaeris opened my mind to the possibilities of the universe. The teachers are incredible!”<br>
@@ -139,17 +162,24 @@
                 </blockquote>
             </div>
         </section>
+
+
     </main>
     <footer class="footer">
+
+
+        <div class="social">
+            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" aria-label="Twitter / X"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <p>Exploring the universe, inspiring new generations.</p>
         <div class="container">
             <p>&copy; 2025 Lunaeris. All rights reserved.</p>
+            <p>by CHAMS</p>
         </div>
-        <div class="social">
-            <a href="#"><i class="instagram"></i></a>
-            <a href="#"><i class="facebook"></i></a>
-            <a href="#"><i class="twitter"></i></a>
-            <a href="#"><i class="youtube"></i></a>
-        </div>
+
     </footer>
 
 
