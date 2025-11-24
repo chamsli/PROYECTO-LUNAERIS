@@ -91,7 +91,7 @@ main {
 .about-hero {
     text-align: center;
     padding: 80px 20px;
-    background: url("../recursos/effect.jpeg") center/cover fixed;
+    background: url("../Recursos/effect.jpeg") center/cover fixed;
 }
 
 .about-hero h2 {
