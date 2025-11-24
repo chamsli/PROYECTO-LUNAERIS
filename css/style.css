@@ -190,21 +190,20 @@ header {
     border-radius: 10px;
     opacity: 0.9;
 } 
-.flip-front {
-    transform: rotateY(0deg);
-    z-index: 2;
-}
+
+ .flip-front {
+     transform: rotateY(0deg) translateZ(1px);
+ }
 
 /* BACK */
 
- .flip-back {
-     transform: rotateY(180deg);
-     z-index: 1;
- }
 .flip-back p {
     color: #e0e8ff;
     font-size: 0.95rem;
     line-height: 1.5;
+}
+.flip-back {
+    transform: rotateY(180deg) translateZ(1px);
 }
 
 @media (max-width: 768px) {
@@ -217,7 +216,6 @@ header {
         height: 150px;
     }
 }
-
 
 
 /* MEMBERS GRID */
