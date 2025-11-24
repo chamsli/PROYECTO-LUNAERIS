@@ -3,7 +3,7 @@ body {
     background: url("../Recursos/stars.jpeg") no-repeat center center fixed;
     background-size: cover;
     position: relative;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 header {
@@ -94,7 +94,7 @@ aside {
 }
 
 
-/* (Glass Effect)*/
+/*Glass Effect*/
 
 .form-intro {
     width: 80%;
@@ -145,7 +145,6 @@ aside {
     line-height: 1.7;
     opacity: 0.95;
 }
-
 
 /*  FORM CONTAINER */
 
@@ -237,7 +236,7 @@ aside {
     flex-direction: column;
     gap: 8px;
     margin: 10px 0;
-    width: 25%;
+    width: 150px;
 }
 
 .skills-row label {
